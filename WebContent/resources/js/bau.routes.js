@@ -57,7 +57,7 @@ angular.module('bauApp', ['bauApp.controllers', 'ngAnimate', 'ui.router', 'ngMat
 //           views: {
 //             'content@home': {
 //               templateUrl: 'resources/views/info.jsp'
-// controller: 'AdozioniController'
+//               controller: 'AdozioniController'
 //             }
 //           }
 //         })
@@ -109,36 +109,36 @@ angular.module('bauApp', ['bauApp.controllers', 'ngAnimate', 'ui.router', 'ngMat
 //               }
 //             })
 //         // stai dicendo che sulla pagina jsp hai un ui.sref="home.login"
-//         .state('home.login', {
-//         	url: '/login',
-//         	views: {
-//         		// il template e controller viene inietato nello stato home
-//         		'content@home': {
-//         			templateUrl: 'resources/views/login.jsp',
-//         			controller: 'LoginController'
-//         		}
-//         	}
-//         })
-//         .state('home.login.recuperaCredenziali', {
-//         	url: '/recuperaCredenziali',
-//         	views: {
-//         		// il template e controller viene inietato nello stato home
-//         		'content@home': {
-//         			templateUrl: 'resources/views/recuperaCredenziali.jsp',
-//         			controller: 'LoginController'
-//         		}
-//         	}
-//         })
-//         .state('home.login.registrazione', {
-//         	url: '/registrazione',
-//         	views: {
-//         		// il template e controller viene inietato nello stato home
-//         		'content@home': {
-//         			templateUrl: 'resources/views/registrazione.jsp',
-//         			controller: 'LoginController'
-//         		}
-//         	}
-//         })
+        .state('home.login', {
+        	url: '/login',
+        	views: {
+        		// il template e controller viene inietato nello stato home
+        		'content@home': {
+        			templateUrl: 'resources/views/login.jsp',
+        			controller: 'LoginController'
+        		}
+        	}
+        })
+        .state('home.login.recuperaCredenziali', {
+        	url: '/recuperaCredenziali',
+        	views: {
+        		// il template e controller viene inietato nello stato home
+        		'content@home': {
+        			templateUrl: 'resources/views/recuperaCredenziali.jsp',
+        			controller: 'LoginController'
+        		}
+        	}
+        })
+        .state('home.login.registrazione', {
+        	url: '/registrazione',
+        	views: {
+        		// il template e controller viene inietato nello stato home
+        		'content@home': {
+        			templateUrl: 'resources/views/registrazione.jsp',
+        			controller: 'LoginController'
+        		}
+        	}
+        })
 //         .state('home.contatti', {
 //         	url: '/contatti',
 //         	views: {
